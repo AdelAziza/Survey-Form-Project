@@ -5,11 +5,81 @@
     <a href="survey.css"></a>
 </head>
 <body>
-    <p>Let us know how we can improve freeCodeCamp</p>
+    <div class="div-h1">
+        <h1>Survey Form</h1>
+    </div>
+    
+    <p>Please provide your personal information</p>
     <ul class="circle">
         <form>
-            <label for="Name"><li>Name</li></label>
-            <input type="text">
+            <div>
+                <label for="FName"><li>First-Name :</li></label><br>
+                <input type="text" placeholder="First-Name">
+
+                <label for="LsName"><li>Last-Name :</li></label><br>
+                <input type="text" placeholder="Last-Name"><br>
+
+                <label for="phoneNumber"><li>Your Phone Number :</li></label><br>
+                <input type="number" placeholder="Your Phone Number">
+
+                <label for="age"><li>Your Age</li></label><br>
+                <input type="number" placeholder="Age">
+            </div><br>
+            <div>
+                <form>
+                    <label for="roles">Which option best describe your current role :</label>
+                    <select size="6">
+                        <option value="Student">Student</option>
+                        <option value="Worker">Worker</option>
+                        <option value="Freelance">Freelance</option>
+                        <option value="front-Dev">Front-End Developer</option>
+                        <option value="full-Dev">Full Stack Developer</option>
+                        <option value="data-Dev">Database Developer</option>
+
+                    </select>
+                </form>
+            </div>
+            <div>
+                <form>
+                    <p>How likely is that you would recommend our service :</p>
+                        <label>Definitely Good</label>
+                        <input type="radio"><br>
+
+                        <label>Definitely Okay</label>
+                        <input type="radio"><br>
+
+                        <label>Definitely Not Good</label>
+                        <input type="radio">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <p>What did you like most from the service :</p>
+                    <select>
+                        <option value="Responsiveness">Responsiveness</option>
+                        <option value="Reliability">Reliability</option>
+                        <option value="Competence">Competence</option>
+                        <option value="Communication">Good Communication</option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <form>
+                    <p>How can we improve our service :</p>
+                    <label>Better Communcation</label>
+                    <input type="checkbox">
+
+                    <label>Competence</label>
+                    <input type="checkbox">
+
+                    <label>Responsiveness</label>
+                    <input type="checkbox">
+
+                </form>
+            </div>
         </form>
+        <br>
+        <p>Please add any other comments . Thank you</p>
+        <textarea placeholder="Any comments"></textarea>
     </ul>
 </body>
