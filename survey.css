@@ -1,3 +1,42 @@
 .circle {
   list-style-type: circle;
 }
+
+.div-h1 {
+  border: 1px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.div-body {
+  border: 2px brown;
+  background-color: darkseagreen;
+}
+h1 {
+  text-align: center;
+}
+.p-1,
+.p-2,
+.p-3,
+.p-4,
+.p-5,
+.p-6 {
+  text-decoration: midnightblue;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18x;
+}
+.div1 {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+.div2 {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+.form-element {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
