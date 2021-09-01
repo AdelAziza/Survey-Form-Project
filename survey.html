@@ -5,28 +5,29 @@
     <link rel="stylesheet"href="survey.css"></link>
 </head>
 <body>
+    <!-- <img class="im1" src="beautiful-contact-form-designs-you-can-steal.jpg"> -->
     <div class="div-body">
     <div class="div-h1">
         <h1>Survey Form</h1>
     </div>
     
-    <p class="p-1">Please provide your personal information</p>
-    <ul class="circle">
+   <div class="div-p1"><p class="p-1">Please provide your personal information</p></div>
+    
         <form>
-            <div>
+            <div id="label1">
             
-                First-Name : <input type="text" placeholder="First-Name"><br><br>
+                First-Name : <input id="input-size" type="text" placeholder="First-Name"><br><br>
                 
-                Last-Name : <input type="text" placeholder="Last-Name"><br><br>
+                Last-Name : <input id="input-size" type="text" placeholder="Last-Name"><br><br>
 
-                Your Phone Number : <input type="number" placeholder="Your Phone Number"><br><br>
+                Phone-Num : <input id="input-size" type="number" placeholder="Phone-Number"><br><br>
 
-                Your Age : <input type="number" placeholder="Age">
+                Your-Age : <input  id="input-size"type="number" placeholder="Your-Age">
             </div><br>
             <div>
                 <form>
                     <label class="p-2"for="roles">Which option best describe your current role :</label>
-                    <select size="6">
+                    <select class="select" size="6">
                         <option value="Student">Student</option>
                         <option value="Worker">Worker</option>
                         <option value="Freelance">Freelance</option>
@@ -37,48 +38,51 @@
                     </select>
                 </form>
             </div><br><br>
-            <div>
+            <div id="label">
                 <form>
+
                     <p class="p-3">How likely is that you would recommend our service :</p>
-                        <label>Definitely Good</label>
-                        <input type="radio"><br>
+                    <div id="label2">
+                            <label>Definitely Good</label>
+                            <input type="radio"><br>
 
-                        <label>Definitely Okay</label>
-                        <input type="radio"><br>
+                            <label>Definitely Okay</label>
+                            <input type="radio"><br>
 
-                        <label>Definitely Not Good</label>
-                        <input type="radio">
+                            <label>Definitely Not Good</label>
+                            <input type="radio">
+                    </div>
                 </form>
             </div>
             <div>
                 <form>
                     <p class="p-4">What did you like most from the service :</p>
-                    <select>
+                    <select id="label3" >
                         <option value="Responsiveness">Responsiveness</option>
                         <option value="Reliability">Reliability</option>
                         <option value="Competence">Competence</option>
                         <option value="Communication">Good Communication</option>
                     </select>
                 </form>
-            </div>
+            </div><br><br>
             <div>
                 <form>
                     <p class="p-5">How can we improve our service :</p>
-                    <label>Better Communcation</label>
-                    <input type="checkbox">
+                    <div id="label4">
+                        <label>Communcation</label>
+                        <input type="checkbox"><br>
 
-                    <label>Competence</label>
-                    <input type="checkbox">
+                        <label>Competence</label>
+                        <input type="checkbox"><br>
 
-                    <label>Responsiveness</label>
-                    <input type="checkbox">
-
+                        <label>Responsiveness</label>
+                        <input type="checkbox">
+                    </div>
                 </form>
             </div>
         </form>
         <br>
         <p class="p-6">Please add any other comments . Thank you</p>
         <textarea placeholder="Any comments"></textarea>
-    </ul>
 </div>
 </body>
