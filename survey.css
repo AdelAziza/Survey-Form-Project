@@ -31,6 +31,8 @@ h1 {
 }
 .div-img {
   float: right;
+  border-radius: 3px;
+  border: 3px;
 }
 
 .p-1,
@@ -102,4 +104,35 @@ h1 {
 }
 .div-p1 {
   float: right;
+}
+
+#label33 {
+  border: 4px solid rgba(143, 188, 163, 0.253);
+  border-radius: 6px;
+  width: 140px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-style: oblique;
+  background-color: pink;
+}
+.submit-in {
+  margin-right: 40%;
+  margin-left: 40%;
+}
+table,
+td,
+th {
+  border: 1px solid rgba(151, 149, 149, 0.507);
+  text-align: left;
+  border-collapse: collapse;
+}
+#th-1 {
+  background-color: springgreen;
+}
+th,
+td {
+  padding: 5px;
 }

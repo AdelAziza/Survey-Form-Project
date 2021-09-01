@@ -3,6 +3,7 @@
     <meta charsert="UTF-8">
     <title>Survey Form</title>
     <link rel="stylesheet"href="survey.css"></link>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -20,10 +21,10 @@
                 
                 Last-Name : <input id="input-size" type="text" placeholder="Last-Name"><br><br>
 
-                Phone-Num : <input id="input-size" type="number" placeholder="Phone-Number"><br><br>
+                Phone-Num : <i class="fas fa-phone-square-alt"></i><input id="input-size" type="number" placeholder="Phone-Number"><br><br>
 
                 Your-Age : <input  id="input-size"type="number" placeholder="Your-Age">
-            </div><br>
+            </div><br><br>
             
             <div>
                 <form>
@@ -81,12 +82,32 @@
                     </div>
                 </form>
             </div>
-        </form>
-        
-        <div class="div-img"><img class="im1" src="meeting.png"></div>
+        </form><br>
+        <p class="p-5">Time to visit our office :</p>
+        <table>
+            <tr>
+                <th id="th-1">Days</th>
+                <th id="th-1">Time</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>10:00AM-3:00PM</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>10:00AM-3:00PM</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>10:00AM-3:00PM</td>
+            </tr>
+        </table>
         <br>
         <p class="p-6">Please add any other comments . Thank you</p>
         <textarea placeholder="Any comments"></textarea><br>
+        <br>
+        <div class="submit-in"><input id="label33" type="submit"></div>
+        
 </div>
 
 </body>
